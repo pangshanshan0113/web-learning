@@ -67,4 +67,18 @@ var student =[
 
 
 
+var color =['red','green','blue','yellow'];
+color[0] = "black";
+color.length;
+
+"1:2:3:4".split(":");
+"|a|b|c".split("|");
+["1","2","3","4"].join(":");
+["","a","b","c"].join("|");
+var arr =["1","2","3","4"];
+arr.push("5","6");
+var arr = ["1","2","3","4"];
+arr.pop();
+var x1 = 'I\'ve got no right to take my place...';
+
 
