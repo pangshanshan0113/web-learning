@@ -65,20 +65,66 @@ var student =[
 
 ]
 
-
-
-var color =['red','green','blue','yellow'];
-color[0] = "black";
-color.length;
-
-"1:2:3:4".split(":");
-"|a|b|c".split("|");
-["1","2","3","4"].join(":");
+var color =['red','green','blue','yellow']
+color[0] = "black"
+color.length
+// result => [1, 2, 3, 4]
+"1:2:3:4".split(":")
+"|a|b|c".split("|")
+["1","2","3","4"].join(":")
 ["","a","b","c"].join("|");
 var arr =["1","2","3","4"];
 arr.push("5","6");
 var arr = ["1","2","3","4"];
 arr.pop();
 var x1 = 'I\'ve got no right to take my place...';
+var x1 = "I've got no right to take my place...";
+var mynum =123
+var mystring =mynum.toString()
+typeof mystring
+var mystring = "123"
+var mynum = Number (mystring)
+typeof mynum
+var mystring = "hello word "
+mystring.length
+mystring[0]
+"blue sky".indexOf("blue")
+var string = "I like study"
+string.toLowerCase()
+var string = "I like study"
+string.toUpperCase()
+var string = "I like study"
+string.replace("study","sleep")
+var string = "I like  study study"
+string.replace(/study/g,"sleep")
+var num = 8
+var numstring = num.toString()
+numstring
+var result = true
+var resultstring = result.toString()
+resultstring
+var num1 = 9
+var num2 = string(num1)
+num2
+var result = true
+var result1 = String(result)
+result1
+String(null)
+
+String(undefined)
+var num1 = Number(true)
+num1
+var num2 = Number(undefined)
+num2
+var num3 = Number(null)
+num3
+
+
+
+
+
+
+
+
 
 
