@@ -118,12 +118,36 @@ var num2 = Number(undefined)
 num2
 var num3 = Number(null)
 num3
+var num1 = parseInt("12.3abc")
+num1
 
+Number(10).toString(2)
+var num1 = parseInt("520")
+num1
 
+parseFloat("10" )
+var n = "10"
+var m = n - 0
+m
+var n = "10"
+var m = n - 1
+m
 
+var n = "abc"
+var m = n - 1
+typeof m
+'number'
 
+var message
+if (messaeg) {
+    console.log("nihaoa")
+} else {
+    console.log("wohenhao")
+}
 
-
+boolean(123)
+boolean("abc")
+boolean(NaN)
 
 
 
